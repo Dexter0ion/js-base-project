@@ -1,3 +1,4 @@
+![](https://github.com/Dexter0ion/js-base-project/blob/master/bottles.PNG?raw=true)
 # js基础项目
 
 该项目主要用于
