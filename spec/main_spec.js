@@ -9,9 +9,10 @@ chai.use(sinonChai);
 var main = require("../lib/main.js");
 
 
-describe("测试描述", function(){
+describe("should print right poem", function(){
     sinon.spy(console, 'log');
 
+    
     it("测试用例1", function(){
 
         var result = main();
@@ -19,7 +20,8 @@ describe("测试描述", function(){
         
         expect(expect_string).to.equal(result);
     });
-
+    
+    /*
     it("测试用例2", function(){
 
         main();
@@ -28,4 +30,5 @@ describe("测试描述", function(){
 
         expect(expect_string).to.equal(result);
     });
+    */
 });
